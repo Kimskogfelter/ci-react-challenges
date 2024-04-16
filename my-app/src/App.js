@@ -1,13 +1,14 @@
-import css from "./App.module.css";
+import "./App.module.css";
 import NavBarSimple from './components/ClassComponentsChallenge';
+import EventsClass from "./components/EventsClass";
+import EventsFunctional from "./components/EventsFunctional";
 
 function App() {
-  return (
-    <div className={css.App}>
-      <NavBarSimple/>
+  return <div className="App">
+     <EventsFunctional/>
+     <EventsClass/>
     
-    </div>
-  );
+    </div>;
 }
 
 export default App;
