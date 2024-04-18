@@ -1,10 +1,10 @@
 import "./App.module.css";
-import LifeCyclesCWU from "./components/LifeCyclesCWU";
+import Content from "./components/Content";
 
 function App() {
   return <div className="App">
 
-     <LifeCyclesCWU/>
+     <Content/>
 
     </div>;
 }
