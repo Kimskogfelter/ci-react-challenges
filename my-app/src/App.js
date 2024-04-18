@@ -1,15 +1,11 @@
 import "./App.module.css";
-import RenderingLists from "./components/RenderingLists";
-import Book from "./components/book";
+import LifeCyclesCWU from "./components/LifeCyclesCWU";
 
 function App() {
   return <div className="App">
-     <RenderingLists/>
-     <Book/>
 
+     <LifeCyclesCWU/>
 
-     
-    
     </div>;
 }
 
